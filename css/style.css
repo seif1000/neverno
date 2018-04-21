@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f6f6f6;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: "Segoe UI","Segoe WP","Segoe Regular", sans-serif;
+}
+img{
+    width: 100%;
+    display: block;
+    min-height: 120px;
+ 
+    
+}
+
+.navbar{
+    background: #fff !important;
+    box-shadow: 2px 2px 3px #dddddd;
+    padding: 10px !important;
+}
+
+#login{
+    padding: 10px !important;
+    background-color:  #39cafb;
+    margin-top: 5px;
+    color: #fff;
+    border-radius: 4px;
+}
+.navbar-brand{
+    font-size: 25px;
+    color: #39cafb !important;
+}
+
+.main-course{
+    position: relative;
+    min-height: 430px;
+    box-shadow: 2px 2px 3px #dddddd;
+    text-align: center;
+    padding-top: 20px;
+}
+.main-course h1,h2{
+    color: white;
+}
+.main-course p{
+    color:black ;
+    font-size: 20px;
+}
+a#cooming{
+    width: 250px !important;
+    padding: 10px !important;
+    background-color:  #fff;
+    margin-top: 5px;
+    color:#fff ;
+  
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 2px 2px 3px black;
+    background: #39cafb;
+
+    
+}
+.backgroun{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    min-height: 430px;
+    background-image: url("../img/blur-close-up-code-546819.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:none;
+    border-radius: 6px;
+    z-index: -1;
+    opacity: 0.7;
+   
+
+
+}
+
+.countTimer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 30px;
+    color: #000;
+    grid-gap: 16px;
+    margin-top: 16px;
+
+    
+}
+.countTimer span{
+    display: block;
+    font-size: 20px;
+}
+
+.countTimer> div {
+   border: 1px solid#fff;
+   border-radius: 5px;
+   background:#39cafb ;
+   opacity: 0.8;
+}
+
+.course{
+  
+  padding: 10 !important;
+
+
+  border-radius: 8px;
+  background: #bae8ff;
+  box-shadow: 2px 2px 3px #dddddd;
+}
+.course:hover{
+   
+    transform: translateY(-2px)
+}
+/*
+.course a{
+    text-decoration: none;
+    background: #39cafb;
+    padding: 5px;
+    display: inline-block;
+    color:#FFF;
+    border-radius: 3px;
+    margin-top: 10px;
+    
+}*/
+.section-quot{
+    min-height: 280px;
+    margin-top: 100px;
+    padding: 20px 30px;
+   
+    background:  linear-gradient(-90deg, #33cccc ,  #7adede,#bae8ff);
+}
+.section-quot p{
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+}
+.section-quot span{
+    font-size: 30px;
+}
+#more-cours{
+    background: #fff;
+    margin-left: 16px;
+    padding: 0;
+    min-height: 400px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #dddddd;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+
+}
+.image{
+   height: 200px;
+    
+}
+.image img{
+    height: 100%;
+    
+}
+ .text h2{
+    color:#39cafb;
+}
+.text a{
+
+    padding: 10px !important;
+   
+    
+    color:#fff ;
+  
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    border-radius: 0;
+    background: #39cafb;
+    margin-top: 40px;
+}
+.news h1{
+    color: #39cafb;
+}
+.section-how img{
+    border: none;
+   
+    box-shadow: 3px 3px 6px #dddddd;
+}
+.ball{
+    
+    
+    border: none;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+.section-how .fa{
+    font-size: 35px;
+    color: #39cafb;
+    padding: 20px 25px;
+   
+    border: none;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 3px 3px 6px #dddddd;
+}
+.explain{
+    padding-left: 1em !important;
+}
+ul{
+    list-style: none;
+    margin-top: 1em;
+}
+li{
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 2;
+    list-style: 0;
+}
+li .far{
+    font-size: 30px; 
+    color: #39cafb;
+    margin-right: 16px;
+}
+.number{
+    background:  linear-gradient(-90deg, #33cccc ,  #7adede,#bae8ff);
+    
+    overflow: hidden;
+    text-align: center;
+    min-height: 200px;
+    vertical-align: middle;
+    padding-top: 2em;
+    margin-top: 100px;
+    
+   
+}
+
+.number span{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+footer{
+    min-height: 200px;
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+    background: #333;
+
+}
+
+@media (max-width:600px){
+    .countTimer{
+        display: none;
+    }
+}
+
+@media (max-width:1000px){
+    .show{
+        margin-top: 20px;
+    }
+}
+
+
